@@ -3,6 +3,9 @@
 
 > Bloodhound is the typeahead.js suggestion engine. Bloodhound is robust, flexible, and offers advanced functionalities such as prefetching, intelligent caching, fast lookups, and backfilling with remote data.
 
+##Forked
+Uses window.localStorage instead of storage2
+
 ### Installtion
 ``` sh
 npm install bloodhound-js --save
@@ -11,7 +14,6 @@ npm install bloodhound-js --save
 + no jquery deps
 + works with both browser and node
 + jquery deferred with [es6-promise](https://www.npmjs.com/package/es6-promise)
-+ storage polyfill with [storage2](https://www.npmjs.com/package/storage2)
 + ajax with [superagent](https://www.npmjs.com/package/superagent)
 
 ### Usage

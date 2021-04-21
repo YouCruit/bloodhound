@@ -1,8 +1,8 @@
 {
   "name": "@youcruit/bloodhound-js",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "bloodhound.js for node and browser",
-  "main": "dist/bloodhound.min.js",
+  "main": "index.js",
   "scripts": {
     "build": "node_modules/.bin/webpack -p",
     "start": "./node_modules/.bin/webpack-dev-server -c --port=7788",

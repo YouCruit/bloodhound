@@ -1,8 +1,8 @@
 {
-  "name": "bloodhound-js",
-  "version": "1.2.1",
+  "name": "@youcruit/bloodhound-js",
+  "version": "1.2.2",
   "description": "bloodhound.js for node and browser",
-  "main": "index.js",
+  "main": "dist/bloodhound.min.js",
   "scripts": {
     "build": "node_modules/.bin/webpack -p",
     "start": "./node_modules/.bin/webpack-dev-server -c --port=7788",
@@ -31,10 +31,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pqx/bloodhound.git"
-  },
-  "bugs": {
-    "url": "https://github.com/pqx/bloodhound/issues"
-  },
-  "homepage": "https://github.com/pqx/bloodhound#readme"
+    "url": "https://github.com/YouCruit/bloodhound.git"
+  }
 }
